@@ -1,0 +1,7 @@
+// Variable that cannot be updated after initialization
+const name = "John Doe"
+
+// Variable that can be updated after initialization
+let age = 42
+
+export {}
