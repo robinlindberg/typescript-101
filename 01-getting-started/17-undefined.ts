@@ -4,8 +4,8 @@ console.log(value) // undefined
 
 // Missing property
 const person: any = {
-  name: "John",
-  age: 42,
+    name: "John",
+    age: 42,
 }
 
 console.log(person.address) // undefined

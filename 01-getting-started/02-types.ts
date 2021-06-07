@@ -18,17 +18,17 @@ let fruits = ["apple", "orange", "pear"]
 
 // Object
 let car = {
-  brand: "Tesla",
-  model: "Model S",
-  color: "red",
+    brand: "Tesla",
+    model: "Model S",
+    color: "red",
 }
 
 // Enum
 enum Direction {
-  North,
-  East,
-  South,
-  West,
+    North,
+    East,
+    South,
+    West,
 }
 
 // Types

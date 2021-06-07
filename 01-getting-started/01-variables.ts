@@ -6,5 +6,4 @@ console.log(name) // John
 let age = 42
 console.log(age) // 42
 
-export { }
-
+export {}

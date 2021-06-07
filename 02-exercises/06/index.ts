@@ -15,7 +15,7 @@
  * Returns a UUID of version 4.
  */
 const createId = (): string => {
-  throw new Error("Not implemented")
+    throw new Error("Not implemented")
 }
 
 const id = createId()

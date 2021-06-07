@@ -1,7 +1,7 @@
 let person = {
-  name: "John",
-  pets: null,
-  wingspan: undefined,
+    name: "John",
+    pets: null,
+    wingspan: undefined,
 }
 
 console.log(person) // { name: "John", pets: null, wingspan: undefined }

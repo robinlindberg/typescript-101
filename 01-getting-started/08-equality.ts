@@ -18,11 +18,6 @@
 "" === "0" // false, TypeScript error
 
 // @ts-ignore
-2 == "2" // true, TypeScript error
-// @ts-ignore
-2 === "2" // false, TypeScript error
-
-// @ts-ignore
 0 == "" // true, TypeScript error
 // @ts-ignore
 0 === "" // false, TypeScript error

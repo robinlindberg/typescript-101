@@ -3,21 +3,21 @@
 // objects.
 
 const toJson = (item: unknown): string => {
-  throw new Error("Not implemented")
+    throw new Error("Not implemented")
 }
 
 const fromJson = (json: string): unknown => {
-  throw new Error("Not implemented")
+    throw new Error("Not implemented")
 }
 
 interface Person {
-  name: string
-  age: number
+    name: string
+    age: number
 }
 
 let person: Person = {
-  name: "John",
-  age: 42,
+    name: "John",
+    age: 42,
 }
 
 const json = toJson(person)
