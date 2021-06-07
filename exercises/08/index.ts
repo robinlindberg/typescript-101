@@ -10,38 +10,38 @@
 // "second" and "third" may be altered.
 
 const sleep = async (ms: number) => {
-    return new Promise((resolve) => setTimeout(resolve, ms))
+  return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
 const first = async (): Promise<void> => {
-    await sleep(3000)
+  await sleep(3000)
 
-    console.log("first")
+  console.log("first")
 }
 
 /**
  * Implement this function to write "second" to the console.
  */
 const second = async (): Promise<void> => {
-    throw new Error("Not implemented")
+  throw new Error("Not implemented")
 }
 
 /**
  * Implement this function to write "third" to the console.
  */
 const third = async (): Promise<void> => {
-    throw new Error("Not implemented")
+  throw new Error("Not implemented")
 }
 
 // Wee need to wrap the code in self invoking function
 // since Node.js doesn't allow us to await on the global
 // scope
-(async () => {
-    await Promise.all([  // first, second, third
-        first(),
-        second(),
-        third()
-    ])
+;(async () => {
+  await Promise.all([
+    first(),
+    second(),
+    third(),
+  ])  // first, second, third
 })()
 
 export {}

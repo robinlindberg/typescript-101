@@ -12,12 +12,12 @@ condition = true
 // condition = 0
 
 if (condition) {
-    message = "Success"
+  message = "Success"
 } else {
-    message = "Failure"
+  message = "Failure"
 }
 
-console.log(message)  // Success (if condition is truthy)
-                      // Failure (if condition is falsy)
+console.log(message) // Success (if condition is truthy)
+                     // Failure (if condition is falsy)
 
 export {}

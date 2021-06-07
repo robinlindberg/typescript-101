@@ -15,10 +15,10 @@
  * Returns a UUID of version 4.
  */
 const createId = (): string => {
-    throw new Error("Not implemented")
+  throw new Error("Not implemented")
 }
 
-const id = createId();
-console.log(id)  // XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX (where X is a hexadecimal number)
+const id = createId()
+console.log(id) // XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX (where X is a hexadecimal number)
 
 export {}

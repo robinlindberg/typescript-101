@@ -8,16 +8,16 @@
  * - "The bomb is disarmed" in any other case
  */
 const sevenBoom = (numbers: number[]): "Boom!" | "The bomb is disarmed" => {
-    throw new Error("Not implemented")
+  throw new Error("Not implemented")
 }
 
 let result = sevenBoom([1, 2, 3, 4, 5, 6, 7])
-console.log(result)  // Boom!
+console.log(result) // Boom!
 
 result = sevenBoom([8, 6, 33, 100])
-console.log(result)  // The bomb is disarmed
+console.log(result) // The bomb is disarmed
 
 result = sevenBoom([2, 55, 60, 97, 86])
-console.log(result)  // Boom!
+console.log(result) // Boom!
 
 export {}

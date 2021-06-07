@@ -1,29 +1,29 @@
 interface Person {
-    name: string,
-    age: number,
-    pets?: string[]  // optional
+  name: string
+  age: number
+  pets?: string[] // optional
 }
 
 const celebrateBirthday = (person: Person) => {
-    person.age++
-    console.log(`${person.name} turned ${person.age}`)
+  person.age++
+  console.log(`${person.name} turned ${person.age}`)
 }
 
 // Explicit type assignment
 const john: Person = {
-    name: "John",
-    age: 42,
-    pets: ["fido"]
+  name: "John",
+  age: 42,
+  pets: ["fido"],
 }
 
-celebrateBirthday(john)  // John turned 43
+celebrateBirthday(john) // John turned 43
 
 // Duck typing
 const jane = {
-    name: "Jane",
-    age: 45
+  name: "Jane",
+  age: 45,
 }
 
-celebrateBirthday(jane)  // Jane turned 46
+celebrateBirthday(jane) // Jane turned 46
 
 export {}
