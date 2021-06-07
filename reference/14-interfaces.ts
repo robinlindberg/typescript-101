@@ -13,7 +13,7 @@ const celebrateBirthday = (person: Person) => {
 const john: Person = {
     name: "John",
     age: 42,
-    pets: [ "fido" ]
+    pets: ["fido"]
 }
 
 celebrateBirthday(john)  // John turned 43

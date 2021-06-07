@@ -1,4 +1,4 @@
-let fruits = [ "apple", "orange", "pear" ]
+let fruits = ["apple", "orange", "pear"]
 
 console.log(fruits.length)  // 3
 console.log(fruits[0])  // apple
@@ -14,7 +14,7 @@ console.log(fruits.length)  // 3
 console.log(fruits[0])  // apple
 
 // Recreate array using spread syntax
-fruits = [ "melon", ...fruits ]
+fruits = ["melon", ...fruits]
 console.log(fruits.length)  // 4
 console.log(fruits[0])  // melon
 

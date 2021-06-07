@@ -1,6 +1,6 @@
 // Array destructuring
-const fruits = [ "apple", "orange", "pear" ]
-const [ first, second ] = fruits
+const fruits = ["apple", "orange", "pear"]
+const [first, second] = fruits
 console.log(first)  // apple
 console.log(second)  // orange
 
@@ -8,7 +8,7 @@ console.log(second)  // orange
 const person = {
     name: "John",
     age: 42,
-    pets: [ "fido" ]
+    pets: ["fido"]
 }
 const { name, age } = person
 console.log(name)  // John

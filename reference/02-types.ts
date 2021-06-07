@@ -14,7 +14,7 @@ let age = 42
 let pi = 3.14159265358979323846
 
 // Array
-let fruits = [ "apple", "orange", "pear" ]
+let fruits = ["apple", "orange", "pear"]
 
 // Object
 let car = {
