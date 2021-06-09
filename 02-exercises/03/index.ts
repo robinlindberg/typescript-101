@@ -37,7 +37,7 @@ const fooBar = (x: number): "foo" | "bar" | "foobar" | number => {
 }
 
 for (let number = 1; number <= 20; number++) {
-    const result = fooBar(number)
+    const result: number | string = fooBar(number)
 
     // 1, 2, foo, 4, bar,
     // foo, 7, 8, foo, bar,
