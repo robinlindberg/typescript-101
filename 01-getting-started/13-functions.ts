@@ -17,7 +17,7 @@ const shout = (message: string): void => {
 shout("Hello world!") // HELLO WORLD!
 
 /**
- * Function with resp parameters.
+ * Function with rest parameters.
  */
 const chat = (sender: string, ...words: string[]) => {
     const sentence = words.join(" ")
