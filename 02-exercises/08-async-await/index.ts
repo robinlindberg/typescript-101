@@ -23,14 +23,18 @@ const first = async (): Promise<void> => {
  * Implement this function to write "second" to the console.
  */
 const second = async (): Promise<void> => {
-    throw new Error("Not implemented")
+    await sleep(3100)
+
+    console.log("second")
 }
 
 /**
  * Implement this function to write "third" to the console.
  */
 const third = async (): Promise<void> => {
-    throw new Error("Not implemented")
+    await sleep(3200)
+
+    console.log("third")
 }
 
 // Wee need to wrap the code in self invoking function
